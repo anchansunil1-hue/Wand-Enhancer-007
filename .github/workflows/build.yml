@@ -28,8 +28,6 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: 22
-          cache: pnpm
-          cache-dependency-path: web-panel/pnpm-lock.yaml
 
       - name: Build executable
         shell: pwsh
